@@ -18,5 +18,5 @@ for(let proprietà in studente){
 let arraystudenti = [studente,studente,studente,studente,studente];
 
 for(let i = 0; i < arraystudenti.length; i++){
-    console.log(arraystudenti[i]);
+    console.log(arraystudenti[i].nome , arraystudenti[i].cognome);
 }
